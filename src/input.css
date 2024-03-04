@@ -100,3 +100,45 @@ details summary span svg {
 details[open] summary span svg {
     transform: rotate(180deg);
 }
+
+.newsletter-section {
+    @apply w-full flex bg-black;
+}
+
+.newsletter-container {
+    @apply flex gap-5 items-center justify-center whitespace-nowrap;
+    animation: scroll-left 15s linear infinite;
+    animation-delay: 2s;
+}
+
+.newsletter-container-none {
+    @apply flex gap-5 items-center justify-center whitespace-nowrap;
+    animation: none;
+}
+
+.newsletter-item {
+    @apply flex w-fit h-6 text-white;
+}
+
+.newsletter-item span {
+    @apply flex text-xs md:text-sm lg:text-base items-center justify-center;
+}
+
+.newsletter-item span img {
+    @apply mr-5;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 3));
+    }
+}
+
+
+.active-link {
+    @apply text-brand-red;
+}

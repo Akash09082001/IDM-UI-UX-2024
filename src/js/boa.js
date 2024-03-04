@@ -76,7 +76,7 @@ const boaData = [
 
 const showBoaData = (boaData) => {
     let listCard = `
-    <div class="flex flex-col w-48 rounded-md border border-gray-300">
+    <div class="flex flex-col w-48 rounded-md bg-white border border-gray-300">
         <div class="flex w-full rounded-md h-48 bg-black">
             <img src=${boaData.img} alt=${boaData.name} class="flex h-full w-full object-contain">
         </div>
