@@ -43,27 +43,20 @@ const boaData = [
     },
     {
         id: 7,
-        name: "Aditi Garg",
-        position: "Creative Head",
-        img: "",
-        logo: ""
-    },
-    {
-        id: 8,
         name: "Ishaan Dass",
         position: "Head of Design",
         img: "",
         logo: ""
     },
     {
-        id: 10,
+        id: 8,
         name: "Chandra Surbhat",
         position: "Vice President, Global head - Digital Experience",
         img: "",
         logo: ""
     },
     {
-        id: 11,
+        id: 9,
         name: "Mayur Chaudhary",
         position: "Global Head, UxDesign & Research, OLX Autos",
         img: "",

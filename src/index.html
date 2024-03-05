@@ -7,7 +7,9 @@
     <title>UX Design</title>
     <link rel="stylesheet" href="output.css">
 
-    <script src="js/navbar.js"></script>
+    <script defer src="js/navbar.js"></script>
+    <script defer src="js/video.js"></script>
+    <script defer src="js/tikker.js"></script>
 
 </head>
 
@@ -111,19 +113,17 @@
                 <div class="flex flex-col px-5 md:px-0 gap-3 lg:gap-5 w-full md:order-1">
                     <h1
                         class="flex flex-col gap-2 w-full text-2xl md:text-2xl+ lg:text-4xl xl:text-5xl items-center justify-center md:items-start md:justify-start">
-                        <strong class="flex w-fit gap-2">
-                            <span>This is what</span>
-                            <span class="bg-black text-white px-2 py-0.5 lg:py-1 rounded-md">India's Best</span>
+                        <strong class="flex flex-col w-fit items-center justify-center md:items-start gap-2">
+                            <span class="font-normal">Here's to the Future</span>
+                            <span class="rounded-md">UI/UX Leaders!</span>
                         </strong>
                         <strong class="flex w-fit gap-2">
-                            <span class="bg-black text-white px-2 py-0.5 lg:py-1 rounded-md">B.Tech CSE</span>
-                            <span>looks like</span>
+                            <span class="bg-black text-white px-2 py-0.5 lg:py-1 rounded-md">B.Des in UX Design </span>
                         </strong>
                     </h1>
                     <p
                         class="flex w-full items-center justify-center md:justify-start text-center md:text-left text-sm md:text-base lg:text-lg max-w-xs md:max-w-lg mx-auto md:mx-0 leading-6">
-                        Secure a prosperous software engineering career with 100% job guarantee and starting packages of
-                        ₹8 LPA.
+                        Secure a prosperous design career with 100% job assistance with average packages of ₹8 LPA.
                     </p>
                     <div class="flex w-full items-center justify-center md:justify-start">
                         <button onclick="openModal()"
@@ -205,9 +205,9 @@
         <section id="Highlight" class="flex w-full">
             <div class="flex w-full max-w-7xl mx-auto px-5 py-5 md:py-8 lg:py-10">
 
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-5 w-full">
+                <div class="grid grid-cols-2 md:w-fit md:mx-auto lg:grid-cols-4 gap-3 md:gap-5 w-full">
 
-                    <div class="flex flex-col w-full gap-2 rounded-lg p-4 md:p-5 shadow-xl bg-white">
+                    <div class="flex flex-col w-full max-w-xs gap-2 rounded-lg p-4 md:p-5 shadow-xl bg-white border">
                         <span class="flex w-8 h-8 shimmer-effect1">
                             <img src="assets/icons/year.webp" alt="">
                         </span>
@@ -215,7 +215,7 @@
                         <p class="flex w-fit text-xs md:text-sm lg:text-base">B.Design Program: 6 Months Internship</p>
                     </div>
 
-                    <div class="flex flex-col w-full gap-2 rounded-lg p-4 md:p-5 shadow-xl bg-white">
+                    <div class="flex flex-col w-full max-w-xs gap-2 rounded-lg p-4 md:p-5 shadow-xl bg-white border">
                         <span class="flex w-8 h-8 shimmer-effect1">
                             <img src="assets/icons/hostlic program.webp" alt="">
                         </span>
@@ -225,7 +225,7 @@
                         </p>
                     </div>
 
-                    <div class="flex flex-col w-full gap-2 rounded-lg p-4 md:p-5 shadow-xl bg-white">
+                    <div class="flex flex-col w-full max-w-xs gap-2 rounded-lg p-4 md:p-5 shadow-xl bg-white border">
                         <span class="flex w-8 h-8 shimmer-effect1">
                             <img src="assets/icons/exclusive admission.webp" alt="">
                         </span>
@@ -234,7 +234,7 @@
                         </p>
                     </div>
 
-                    <div class="flex flex-col w-full gap-2 rounded-lg p-4 md:p-5 shadow-xl bg-white">
+                    <div class="flex flex-col w-full max-w-xs gap-2 rounded-lg p-4 md:p-5 shadow-xl bg-white border">
                         <span class="flex w-8 h-8 shimmer-effect1">
                             <img src="assets/icons/eligibility1.webp" alt="">
                         </span>
@@ -279,89 +279,413 @@
                     <div class="flex flex-col gap-4 h-fit my-auto w-full">
                         <div class="trusted-by-swiper  w-full flex overflow-hidden h-fit">
                             <div class="swiper-wrapper flex w-auto">
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/7th-corner.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/accenture.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/adnetglobal.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/adobe.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/airbnb.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/ajio.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/amazon.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/american-express.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/appo.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/atos.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/bestseler.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/black-pepper.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/bric.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/Byjus.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/Capgemini.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/ChicMic.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/codtas.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/craft.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/delhivery.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/Disney-Hotstar-logo.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/dreem11.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/dropbox.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/essence.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/eveun.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/facbooke.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
                             </div>
                         </div>
                         <div class="trusted-by-swiper  w-full flex overflow-hidden h-fit">
                             <div class="swiper-wrapper flex w-auto">
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/flipkart.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/fractlal.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/goldman sachs.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/google.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/groww.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/haffele.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/hcl.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/hm.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/hsbc.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/hurix-digital.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/hyper-connect.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/ibm.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/imdb.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/instagram.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/JIO.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/kafta.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/konverge.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/linked.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/LT.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/mercedes-benz.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/Microsoft.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/mp8.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/mpl.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/muntra.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/nagarro.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
                             </div>
                         </div>
                         <div class="trusted-by-swiper  w-full flex overflow-hidden h-fit">
                             <div class="swiper-wrapper flex w-auto">
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/naukri.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/naukri.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/netflix.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/niit.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/noise.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/nttdata.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/OLA.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/oyo.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/Pantaloons.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/Panther-studio.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/paypal.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/paytm.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/Pixelfox.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/pixolo-production.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/prime-focus.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/pwc.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/Rajashree-productions.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/razotpay.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/rbl.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/redbss.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/redcliffe-l;abs.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/rediffusion.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/reliance.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/Rflashino.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/samsung.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
                             </div>
                         </div>
                         <div class="trusted-by-swiper  w-full flex overflow-hidden h-fit">
                             <div class="swiper-wrapper flex w-auto">
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/shaddicom.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/snapdeal.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/spotify.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/starfaze.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/swiggy.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
-                                <div class="swiper-slide flex w-40 md:w-28 h-14 border border-red-500 rounded-md">
-                                    <img src="" alt="" class="bg-white flex w-full h-full object-contain rounded-md">
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/tata-power.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/tcs.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/tech-mahindra.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/Technicolor.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/trends.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/triber.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/twitter.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/uder.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/Vaibhav-studios.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/visa.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/walmart.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/westside.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/White-Maison-de-Couture.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/wipro.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/Xentrix.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/Yash_raj_films_logo_small.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/youtube.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/zensar.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
+                                </div>
+                                <div class="swiper-slide flex w-40 md:w-28 h-14 rounded-md">
+                                    <img src="assets/placement-logos/zomato.webp" alt=""
+                                        class="bg-white flex w-full h-full object-contain rounded-md">
                                 </div>
                             </div>
                         </div>
@@ -2549,11 +2873,9 @@
     </footer>
 
 
-    <script src="js/tikker.js"></script>
     <script src="js/main.js"></script>
     <script src="js/campus-swiper.js"></script>
     <script src="js/boa.js"></script>
-    <script src="js/video.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/swiper.js"></script>
