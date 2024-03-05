@@ -21,7 +21,7 @@
             <div class="grid grid-cols-2 w-full">
                 <div class="flex w-full">
                     <div class="flex h-12">
-                        <img src="assets/logo/ISU-LOGO.webp" alt="ITM Logo">
+                        <img src="assets/logo/ISU-IDM-LOGO.webp" alt="ITM Logo">
                     </div>
                 </div>
                 <div class="flex w-full items-center justify-end">
@@ -106,7 +106,7 @@
         <section id="Hero" class="flex w-full pt-20 md:pt-24">
             <div class="grid grid-cols-1 md:grid-cols-2 md:py-4 md:px-5 w-full gap-5 max-w-7xl mx-auto ">
                 <div class="flex w-full md:order-2">
-                    <video id="myVideo" class="flex w-full aspect-video rounded-md" muted loop playsinline>
+                    <video id="myVideo" class="flex w-full aspect-video rounded-md" autoplay muted loop playsinline>
                         <source src="assets/video/herovideo.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -810,7 +810,7 @@
             class="boa flex w-full max-w-screen-2xl mx-auto relative before:absolute before:w-full before:h-28 before:bg-brand-red before:bg-boa-banner before:bg-top before:bg-no-repeat md:before:w-[450px] md:before:bg-right before:top-0 md:before:right-0 md:before:rounded-md md:before:h-350">
             <div class="flex flex-col z-10 w-full max-w-7xl mx-auto py-5 md:py-8 lg:py-10 px-5 gap-5">
                 <div class="flex md:hidden w-full">
-                    <video id="myVideo2" class="flex w-full aspect-video rounded-md" muted loop playsinline>
+                    <video id="myVideo2" class="flex w-full aspect-video rounded-md" autoplay muted loop playsinline>
                         <source src="assets/video/herovideo.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -1456,7 +1456,8 @@
             <div class="flex w-full max-w-7xl mx-auto py-5 md:py-0">
                 <div class="grid grid-cols-1 md:grid-cols-2  gap-5 w-full">
                     <div class="flex w-full h-full">
-                        <video id="myVideo3" class="flex h-60 w-fit aspect-video rounded-md" muted loop playsinline>
+                        <video id="myVideo3" class="flex h-60 w-fit aspect-video rounded-md" autoplay muted loop
+                            playsinline>
                             <source src="assets/video/brochure sneek peak.mp4" type="video/mp4">
                         </video>
                     </div>
@@ -2379,21 +2380,27 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full">
                     <div class="flex w-full">
                         <div id="image-container"
-                            class="flex w-full max-w-md mx-auto h-fit relative overflow-hidden items-center rounded-md">
+                            class="flex w-full max-w-md mx-auto h-full relative overflow-hidden items-center rounded-md">
                             <div id="image-slider" class="flex h-full w-full transition-all">
-                                <img class="image rounded-md flex w-full h-full object-contain"
-                                    src="assets/campus-img/Our-Campus-1.webp" alt="Campus Image">
-                                <img class="image rounded-md flex w-full h-full object-contain"
-                                    src="assets/campus-img/Our-Campus-2.webp" alt="Campus Image">
-                                <img class="image rounded-md flex w-full h-full object-contain"
-                                    src="assets/campus-img/Our-Campus-3.webp" alt="Campus Image">
-                                <img class="image rounded-md flex w-full h-full object-contain"
-                                    src="assets/campus-img/Our-Campus-4.webp" alt="Campus Image">
-                                <img class="image rounded-md flex w-full h-full object-contain"
-                                    src="assets/campus-img/Our-Campus-5.webp" alt="Campus Image">
+                                <img class="image rounded-md flex w-full h-full object-cover object-center"
+                                    src="assets/campus-img/campus-img-1.webp" alt="Campus Image">
+                                <img class="image rounded-md flex w-full h-full object-cover object-center"
+                                    src="assets/campus-img/campus-img-2.webp" alt="Campus Image">
+                                <img class="image rounded-md flex w-full h-full object-cover object-center"
+                                    src="assets/campus-img/campus-img-3.webp" alt="Campus Image">
+                                <img class="image rounded-md flex w-full h-full object-cover object-center"
+                                    src="assets/campus-img/campus-img-4.webp" alt="Campus Image">
+                                <img class="image rounded-md flex w-full h-full object-cover object-center"
+                                    src="assets/campus-img/campus-img-5.webp" alt="Campus Image">
+                                <img class="image rounded-md flex w-full h-full object-cover object-center"
+                                    src="assets/campus-img/campus-img-6.webp" alt="Campus Image">
+                                <img class="image rounded-md flex w-full h-full object-cover object-center"
+                                    src="assets/campus-img/campus-img-7.webp" alt="Campus Image">
+                                <img class="image rounded-md flex w-full h-full object-cover object-center"
+                                    src="assets/campus-img/campus-img-8.webp" alt="Campus Image">
                             </div>
                             <button id="prev-btn" onclick="prevImage()"
-                                class="flex w-6 bg-white h-10 rounded-md items-center justify-center absolute left-0 ">
+                                class="flex w-6 bg-white transition-all hover:text-white hover:bg-brand-red h-10 rounded-md items-center justify-center absolute left-0 ">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                     class="w-6 h-6">
                                     <path fill-rule="evenodd"
@@ -2402,7 +2409,7 @@
                                 </svg>
                             </button>
                             <button id="next-btn" onclick="nextImage()"
-                                class="flex w-6 bg-white h-10 rounded-md items-center justify-center absolute right-0 ">
+                                class="flex w-6 bg-white transition-all hover:text-white hover:bg-brand-red h-10 rounded-md items-center justify-center absolute right-0 ">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                     class="w-6 h-6">
                                     <path fill-rule="evenodd"
@@ -2656,8 +2663,8 @@
                                     </summary>
                                     <div class="flex flex-col w-full gap-5 py-4 px-3">
                                         <p class=" text-secondary font-normal text-gray-600"><strong>Answer
-                                                :</strong>&nbsp;Candidates are required to fill the Application form
-                                            online and take CDO challenge in-person to get selected
+                                                :</strong>&nbsp;Fees of total 4 Years is Rs. 16.8 lakhs which includes
+                                            exclusive conferences & Meetup passes
                                         </p>
                                     </div>
                                 </details>
@@ -2724,7 +2731,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full max-w-7xl mx-auto py-10 px-5 ">
             <div class="flex flex-col gap-5 w-full just">
                 <div class="flex h-16 w-fit">
-                    <img src="assets/logo/ISU-LOGO-white.webp" alt="" class="flex w-fit h-full object-contain">
+                    <img src="assets/logo/ISU-IDM-LOGO-white.webp" alt="" class="flex w-fit h-full object-contain">
                 </div>
                 <div class="flex gap-3 flex-col w-full">
                     <p class="flex w-full text-justify max-w-lg text-sm md:text-sm lg:text-base text-white">
