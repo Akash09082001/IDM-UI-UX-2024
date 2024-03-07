@@ -790,6 +790,10 @@ video {
   width: 100%;
 }
 
+.w-4{
+  width: 1rem;
+}
+
 .max-w-3xl{
   max-width: 48rem;
 }
@@ -1079,6 +1083,10 @@ video {
 
 .p-5{
   padding: 1.25rem;
+}
+
+.p-1{
+  padding: 0.25rem;
 }
 
 .px-2{
