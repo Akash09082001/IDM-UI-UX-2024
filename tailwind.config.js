@@ -97,6 +97,7 @@ module.exports = {
       },
       backgroundColor: {
         "modal-dark-fade": "rgba(0, 0, 0, 0.4)",
+        "boa-card": "radial-gradient( hsla(0, 0%, 99%, 0.85) 30%, hsl(336, 100%, 92%))"
       },
       animation: {
         "spin-slow": "spin 8s linear infinite",

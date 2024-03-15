@@ -142,3 +142,7 @@ details[open] summary span svg {
 .active-link {
     @apply text-brand-red;
 }
+
+.boa-card {
+    background: radial-gradient(hsla(0, 5%, 24%, 0.85) 30%, hsl(300, 2%, 9%));
+}

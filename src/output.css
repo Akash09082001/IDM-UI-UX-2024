@@ -790,10 +790,6 @@ video {
   width: 100%;
 }
 
-.w-4{
-  width: 1rem;
-}
-
 .max-w-3xl{
   max-width: 48rem;
 }
@@ -1083,10 +1079,6 @@ video {
 
 .p-5{
   padding: 1.25rem;
-}
-
-.p-1{
-  padding: 0.25rem;
 }
 
 .px-2{
@@ -1490,6 +1482,10 @@ details[open] summary span svg {
 .active-link{
   --tw-text-opacity: 1;
   color: rgb(169 29 84 / var(--tw-text-opacity));
+}
+
+.boa-card {
+  background: radial-gradient(hsla(0, 5%, 24%, 0.85) 30%, hsl(300, 2%, 9%));
 }
 
 .before\:absolute::before{
