@@ -23,8 +23,8 @@ function closeModal() {
     modal.style.display = "none";
 }
 function getInfoFromButton(button) {
-    var heading = button.getAttribute('aria-heading');
-    var id = button.getAttribute('aria-id');
+    var heading = button.getAttribute('data-heading');
+    var id = button.getAttribute('data-id');
     return { heading: heading, id: id };
 }
 document.querySelectorAll('.enquireNow').forEach(function (button) {

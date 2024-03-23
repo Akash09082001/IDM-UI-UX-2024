@@ -63,7 +63,8 @@ document.addEventListener('DOMContentLoaded', function () {
             const targetId = link.getAttribute('data-target');
             const targetSection = document.getElementById(targetId);
 
-            if (targetSection.offsetTop <= scrollPosition && targetSection.offsetTop + targetSection.offsetHeight > scrollPosition) {
+            // Check if targetSection exists before accessing its properties
+            if (targetSection && targetSection.offsetTop <= scrollPosition && targetSection.offsetTop + targetSection.offsetHeight > scrollPosition) {
                 navLinks.forEach(navLink => navLink.classList.remove('active-link'));
                 link.classList.add('active-link');
 
