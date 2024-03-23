@@ -108,6 +108,11 @@
                 <nav class="flex w-full h-full items-center overflow-x-scroll nav-scroll lg:overflow-x-hidden">
                     <ul class="flex w-fit justify-start gap-3 lg:gap-5 text-sm lg:mx-auto">
                         <li class="flex w-fit">
+                            <a href="#Why-UX" data-target="Why-UX" class="nav-link flex w-fit whitespace-nowrap">
+                                Why UX
+                            </a>
+                        </li>
+                        <li class="flex w-fit">
                             <a href="#Overview" data-target="Overview" class="nav-link flex w-fit whitespace-nowrap">
                                 Overview
                             </a>
@@ -154,12 +159,12 @@
                                 Campus
                             </a>
                         </li>
-                        <li class="flex w-fit">
+                        <!-- <li class="flex w-fit">
                             <a href="#Activities" data-target="Activities"
                                 class="nav-link flex w-fit whitespace-nowrap">
                                 Student Activity
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </nav>
             </div>
@@ -359,7 +364,7 @@
 
         <hr class="flex w-full max-w-7xl mx-auto mt-5 md:mt-0">
 
-        <section id="Why-we" class="flex w-full bg-black">
+        <section id="Why-UX" class="flex w-full bg-black">
             <div class="flex flex-col w-full max-w-7xl mx-auto py-5 md:py-8 lg:py-10 px-5 gap-5">
                 <div class="flex w-full">
                     <h2 class="flex w-full text-xl md:text-2xl lg:text-3xl font-semibold">
@@ -1204,7 +1209,7 @@
                 <div class="hidden lg:flex w-full">
                     <div class="flex flex-col xl:flex-row xl:gap-5 gap-y-10 w-full">
                         <div class="flex gap-3 xl:flex-col text-xl md:text-2xl my-auto w-fit mx-auto">
-                            <span class="text-white bg-black px-5 py-4 rounded-md font-bold text-center">
+                            <span class="text-white bg-black px-5 py-2 rounded-md font-bold text-center">
                                 Traditional B.Des
                             </span>
                             <span class="items-center justify-center flex font-bold">VS</span>
@@ -1578,8 +1583,8 @@
                         <strong
                             class="text-white text-base md:text-lg lg:text-2xl xl:text-3xl text-center md:text-left font-normal leading-8">Ready
                             to get started? Grab our brochure and begin your exciting journey today!</strong>
-                        <button onclick="openModal1()"
-                            class="flex w-fit text-base px-5 py-2 bg-brand-red text-white rounded-md">
+                        <button onclick="openModal()" data-id="enquire-now" data-heading="Enter details to get brochure"
+                            class="enquireNow flex w-fit text-base px-5 py-2 bg-brand-red text-white rounded-md">
                             GET BROCHURE
                         </button>
                     </div>
