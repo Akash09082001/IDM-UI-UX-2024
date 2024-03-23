@@ -86,8 +86,8 @@
 
     <header class="flex flex-col w-full shadow fixed top-0 z-30 md:backdrop-blur-2xl md:bg-opacity-80 bg-white ">
         <div class="grid grid-cols-1 max-w-7xl mx-auto divide-y w-full px-3">
-            <div class="grid grid-cols-2 w-full">
-                <div class="flex md:divide-x ">
+            <div class="grid grid-cols-2 lg:grid-cols-5 w-full">
+                <div class="flex md:divide-x lg:col-span-2">
                     <div class="flex h-12 ">
                         <img loading="lazy" src="assets/logo/ISU-IDM-LOGO.webp" alt="ITM Logo"
                             class="w-fit h-full object-contain mix-blend-multiply">
@@ -97,12 +97,192 @@
                             class="w-fit h-full object-contain object-left mix-blend-multiply">
                     </div>
                 </div>
-                <div class="flex w-full items-center justify-end">
+                <div class="hidden lg:flex w-full text-sm items-center justify-end  gap-5  lg:col-span-2">
+                    <li class="flex relative w-fit transition-all group hover:bg-brand-red rounded-md">
+                        <div
+                            class="flex w-full px-3 gap-2 md:px-5 transition-all text-gray-700 group-hover:text-white py-2 items-center justify-center">
+                            <span class="flex w-fit">Program</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                                stroke="currentColor" class="w-4 h-4 font-bold">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </div>
+                        <ul
+                            class="flex flex-col rounded-md shadow-md absolute top-10 left-0 divide-y w-80 z-10 invisible opacity-0 group-hover:visible group-hover:opacity-100 bg-white">
+                            <li
+                                class="flex w-full cursor-pointer transition-all rounded-md text-gray-700 hover:bg-brand-red hover:text-white ">
+                                <span
+                                    onclick="window.location.href ='https://www.itm.edu/idm-bachelor-of-design-in-fashion-design'"
+                                    class="flex w-full px-5 py-3">
+                                    Bachelor of Design in Fashion Design
+                                </span>
+                            </li>
+                            <li
+                                class="flex w-full cursor-pointer transition-all rounded-md text-gray-700 hover:bg-brand-red hover:text-white ">
+                                <span
+                                    onclick="window.location.href ='https://www.itm.edu/idm-bachelor-of-design-in-interior-design'"
+                                    class="flex w-full px-5 py-3">
+                                    Bachelor of Design in Interior Design
+                                </span>
+                            </li>
+                            <li
+                                class="flex w-full cursor-pointer transition-all rounded-md text-gray-700 hover:bg-brand-red hover:text-white ">
+                                <span
+                                    onclick="window.location.href ='https://www.itm.edu/idm-bachelor-of-design-in-visual-communication'"
+                                    class="flex w-full px-5 py-3">
+                                    Bachelor of Design in Visual Communication
+                                </span>
+                            </li>
+                            <li
+                                class="flex w-full cursor-pointer transition-all rounded-md text-gray-700 hover:bg-brand-red hover:text-white ">
+                                <span
+                                    onclick="window.location.href ='https://www.itm.edu/idm-bachelor-of-design-in-animation-and-vfx'"
+                                    class="flex w-full px-5 py-3">
+                                    Bachelor of Design in Animation and VFX
+                                </span>
+                            </li>
+                            <li
+                                class="flex w-full cursor-pointer transition-all rounded-md text-gray-700 hover:bg-brand-red hover:text-white ">
+                                <span
+                                    onclick="window.location.href ='https://www.itm.edu/idm-bachelor-of-design-in-ux-design'"
+                                    class="flex w-full px-5 py-3">
+                                    Bachelor of Design in UX Design
+                                </span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="flex w-fit transition-all text-gray-700 hover:bg-brand-red hover:text-white rounded-md">
+                        <a class="flex w-full px-3 md:px-5 py-2" href="https://www.itm.edu/aboutus">About us</a>
+                    </li>
+                    <li class="flex w-fit transition-all text-gray-700 hover:bg-brand-red hover:text-white rounded-md">
+                        <a class="flex w-full px-3 md:px-5 py-2" href="https://www.itm.edu/blog/idm">Blogs</a>
+                    </li>
+                    <li class="flex w-fit transition-all text-gray-700 hover:bg-brand-red hover:text-white rounded-md">
+                        <a class="flex w-full px-3 md:px-5 py-2" href="https://www.itm.edu/contactus/">Contact
+                            us</a>
+                    </li>
+                </div>
+                <div class="flex w-full gap-2 items-center justify-end">
                     <button onclick="applyNow()"
-                        class="flex w-fit h-fit rounded-md px-4 py-2 shimmer-effect1 text-white bg-brand-red shimmer-effect1">
+                        class="flex w-fit h-fit text-sm rounded-md px-4 py-2 shimmer-effect1 text-white bg-brand-red shimmer-effect1">
                         Apply Now
                     </button>
+                    <button id="open" onclick="openMenu()"
+                        class="flex md:hidden w-fit h-auto rounded-md py-2 px-2  items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                            <path fill-rule="evenodd"
+                                d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
                 </div>
+                <nav id="mobile-nav"
+                    class="hidden lg:hidden flex-col absolute w-full py-1 z-20 gap-2 max-w-sm  right-0 top-0 h-screen bg-white shadow-md">
+                    <div class="flex w-full px-2 items-center justify-between">
+                        <div class="h-14 md:h-16 w-auto ">
+                            <img loading="lazy" class="flex w-full h-full object-contain"
+                                src="assets/logo/ISU-IDM-LOGO.webp" alt="logo">
+                        </div>
+                        <div class="flex w-auto h-full items-center justify-end">
+
+                            <button id="close" onclick="closeMenu()"
+                                class="flex  rounded-md     py-2 px-2 items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="w-6 h-6">
+                                    <path fill-rule="evenodd"
+                                        d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="flex w-full h-full overflow-y-scroll card-scroll pb-20">
+                        <ul class="navbar flex flex-col divide-y w-full h-fit">
+                            <li
+                                class="flex w-full transition-all rounded-md text-gray-700 hover:bg-brand-red hover:text-white">
+                                <a class="flex w-full px-5 py-3" href="#Home">Home</a>
+                            </li>
+                            <li
+                                class="flex w-full transition-all rounded-md text-gray-700 hover:bg-brand-red hover:text-white">
+                                <a class="flex w-full px-5 py-3" href="https://www.itm.edu/aboutus">About Us</a>
+                            </li>
+                            <li
+                                class="flex w-full transition-all rounded-md text-gray-700 hover:bg-brand-red hover:text-white">
+                                <a class="flex w-full px-5 py-3" href="https://www.itm.edu/blog/">Blogs<a>
+                            </li>
+                            <li class="flex w-full transition-all ">
+                                <details class="flex flex-col w-full rounded-md">
+                                    <summary class="flex relative w-full px-5 py-3">
+                                        <span class="flex w-full">Program</span>
+                                        <span class="flex absolute right-5">
+                                            <ion-icon class="text-xl" name="chevron-down-outline"></ion-icon>
+                                        </span>
+                                    </summary>
+                                    <div class="flex w-full">
+                                        <ul class="grid grid-cols-1 pl-3 divide-y w-full">
+                                            <li
+                                                class="flex w-full cursor-pointer transition-all rounded-md text-gray-700 hover:bg-brand-red hover:text-white ">
+                                                <span
+                                                    onclick="window.location.href ='https://www.itm.edu/idm-bachelor-of-design-in-fashion-design'"
+                                                    class="flex w-full px-5 py-3">
+                                                    Bachelor of Design in Fashion Design
+                                                </span>
+                                            </li>
+                                            <li
+                                                class="flex w-full cursor-pointer transition-all rounded-md text-gray-700 hover:bg-brand-red hover:text-white ">
+                                                <span
+                                                    onclick="window.location.href ='https://www.itm.edu/idm-bachelor-of-design-in-interior-design'"
+                                                    class="flex w-full px-5 py-3">
+                                                    Bachelor of Design in Interior Design
+                                                </span>
+                                            </li>
+                                            <li
+                                                class="flex w-full cursor-pointer transition-all rounded-md text-gray-700 hover:bg-brand-red hover:text-white ">
+                                                <span
+                                                    onclick="window.location.href ='https://www.itm.edu/idm-bachelor-of-design-in-visual-communication'"
+                                                    class="flex w-full px-5 py-3">
+                                                    Bachelor of Design in Visual Communication
+                                                </span>
+                                            </li>
+                                            <li
+                                                class="flex w-full cursor-pointer transition-all rounded-md text-gray-700 hover:bg-brand-red hover:text-white ">
+                                                <span
+                                                    onclick="window.location.href ='https://www.itm.edu/idm-bachelor-of-design-in-animation-and-vfx'"
+                                                    class="flex w-full px-5 py-3">
+                                                    Bachelor of Design in Animation and VFX
+                                                </span>
+                                            </li>
+                                            <li
+                                                class="flex w-full cursor-pointer transition-all rounded-md text-gray-700 hover:bg-brand-red hover:text-white ">
+                                                <span
+                                                    onclick="window.location.href ='https://www.itm.edu/idm-bachelor-of-design-in-ux-design'"
+                                                    class="flex w-full px-5 py-3">
+                                                    Bachelor of Design in UX Design
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </details>
+                            </li>
+                            <li
+                                class="flex w-full transition-all rounded-md text-gray-700 hover:bg-brand-red hover:text-white">
+                                <a class="flex w-full px-5 py-3" href="https://www.itm.edu/contactus/pgdm">Contact us<a>
+                            </li>
+                            <li class="flex w-full items-center px-5 py-5 gap-2">
+                                <button onclick="applyNow()"
+                                    class="shimmer-effect2 text-white bg-brand-red flex  py-2 px-5 rounded-md text-center items-center justify-center font-normal text-lg "
+                                    href="">Apply
+                                    Now</button>
+                                <button onclick="openModal()" data-id="enquire-now" data-heading="Enquire Now"
+                                    class="enquireNow shimmer-effect2 text-white bg-brand-red flex  py-2 px-5 rounded-md text-center items-center justify-center font-normal text-lg ">Enquire
+                                    Now</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
             </div>
             <div class="flex h-8 w-full">
                 <nav class="flex w-full h-full items-center overflow-x-scroll nav-scroll lg:overflow-x-hidden">
