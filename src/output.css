@@ -1710,6 +1710,10 @@ details[open] summary span svg {
     gap: 0px;
   }
 
+  .md\:gap-3{
+    gap: 0.75rem;
+  }
+
   .md\:gap-5{
     gap: 1.25rem;
   }
@@ -1933,16 +1937,16 @@ details[open] summary span svg {
     gap: 2.5rem;
   }
 
+  .lg\:gap-4{
+    gap: 1rem;
+  }
+
   .lg\:gap-5{
     gap: 1.25rem;
   }
 
   .lg\:gap-8{
     gap: 2rem;
-  }
-
-  .lg\:gap-4{
-    gap: 1rem;
   }
 
   .lg\:overflow-x-hidden{
