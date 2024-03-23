@@ -12,18 +12,29 @@ function closeAllModals() {
     modal1.style.display = "none";
 }
 
-function openModal() {
+
+const formHeading = document.getElementById("formHeading")
+
+function openModal(headingText) {
+    formHeading.innerHTML = headingText;
     modal.style.display = "block";
 }
 function closeModal() {
     modal.style.display = "none";
 }
-function openModal1() {
-    modal1.style.display = "block";
+function getInfoFromButton(button) {
+    var heading = button.getAttribute('aria-heading');
+    var id = button.getAttribute('aria-id');
+    return { heading: heading, id: id };
 }
-function closeModal1() {
-    modal1.style.display = "none";
-}
+document.querySelectorAll('.enquireNow').forEach(function (button) {
+    button.addEventListener('click', function () {
+        var info = getInfoFromButton(this);
+        openModal(info.heading);
+        console.log("Button ID: " + info.id);
+    });
+});
+
 
 
 const heroSection = document.getElementById('Highlight');
