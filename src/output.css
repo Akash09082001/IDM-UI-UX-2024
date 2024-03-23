@@ -1690,6 +1690,10 @@ details[open] summary span svg {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .md\:items-start{
     align-items: flex-start;
   }
@@ -1901,6 +1905,11 @@ details[open] summary span svg {
     height: 3.5rem;
   }
 
+  .lg\:w-fit{
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1991,6 +2000,11 @@ details[open] summary span svg {
   .lg\:text-sm{
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .lg\:text-4xl\+{
+    font-size: 40px;
+    line-height: 36px;
   }
 }
 
