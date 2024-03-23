@@ -43,7 +43,7 @@ const useTikker = () => {
                             d="M27.4024 59.1687C30.778 39.262 36.5949 32.876 54.0039 29.8778C54.0039 29.8778 38.9916 26.8949 34.0039 19.3643C29.0161 11.8337 29.6029 7.23716 27.3046 0C25.2508 6.65037 25.5658 14.028 19.9207 20.2934C14.324 26.5051 7.15789 28.0685 0.703125 29.7311C18.3566 33.202 23.9832 39.9368 27.4024 59.1687Z"
                             fill="#FFBB00" />
                     </svg>&nbsp; 
-                    Gain Insights from Industry Practitioners
+                    Learn from Industry Practitioners
                 </span>
             </div>
             <div class="newsletter-item">
@@ -109,7 +109,7 @@ const useTikker = () => {
                             d="M27.4024 59.1687C30.778 39.262 36.5949 32.876 54.0039 29.8778C54.0039 29.8778 38.9916 26.8949 34.0039 19.3643C29.0161 11.8337 29.6029 7.23716 27.3046 0C25.2508 6.65037 25.5658 14.028 19.9207 20.2934C14.324 26.5051 7.15789 28.0685 0.703125 29.7311C18.3566 33.202 23.9832 39.9368 27.4024 59.1687Z"
                             fill="#FFBB00" />
                     </svg>&nbsp; 
-                    Gain Insights from Industry Practitioners
+                    Learn from Industry Practitioners
                 </span>
             </div>
             <div class="newsletter-item">
@@ -175,7 +175,7 @@ const useTikker = () => {
                             d="M27.4024 59.1687C30.778 39.262 36.5949 32.876 54.0039 29.8778C54.0039 29.8778 38.9916 26.8949 34.0039 19.3643C29.0161 11.8337 29.6029 7.23716 27.3046 0C25.2508 6.65037 25.5658 14.028 19.9207 20.2934C14.324 26.5051 7.15789 28.0685 0.703125 29.7311C18.3566 33.202 23.9832 39.9368 27.4024 59.1687Z"
                             fill="#FFBB00" />
                     </svg>&nbsp; 
-                    Gain Insights from Industry Practitioners
+                    Learn from Industry Practitioners
                 </span>
             </div>
             <div class="newsletter-item">

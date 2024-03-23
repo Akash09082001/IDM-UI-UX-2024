@@ -26,7 +26,7 @@ function closeModal1() {
 }
 
 
-const heroSection = document.getElementById('Placement');
+const heroSection = document.getElementById('Highlight');
 const floatBtn = document.getElementById('floatBtn');
 
 // Initial check when the page loads
