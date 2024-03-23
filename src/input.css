@@ -10,6 +10,9 @@
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' fill='none' stroke='rgb(15 23 42 / 0.03)'%3E%3Cpath d='M0 .5h31.5V32'/%3E%3C/svg%3E");
 }
 
+.nav-scroll::-webkit-scrollbar {
+    display: none;
+}
 
 .card-scroll::-webkit-scrollbar {
     @apply h-1 w-2 !important;

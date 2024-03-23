@@ -87,25 +87,25 @@
     <header class="flex flex-col w-full shadow fixed top-0 z-30 md:backdrop-blur-2xl md:bg-opacity-80 bg-white ">
         <div class="grid grid-cols-1 max-w-7xl mx-auto divide-y w-full px-3">
             <div class="grid grid-cols-2 w-full">
-                <div class="flex md:divide-x  w-full">
+                <div class="flex md:divide-x ">
                     <div class="flex h-12 ">
                         <img loading="lazy" src="assets/logo/ISU-IDM-LOGO.webp" alt="ITM Logo"
                             class="w-fit h-full object-contain mix-blend-multiply">
                     </div>
-                    <div class="hidden md:flex h-12 ">
+                    <div class="hidden md:flex h-12 justify-start">
                         <img loading="lazy" src="assets/logo/33 Years Logo.webp" alt="33 Years ITM Group Logo"
-                            class="w-fit h-full object-contain mix-blend-multiply">
+                            class="w-fit h-full object-contain object-left mix-blend-multiply">
                     </div>
                 </div>
                 <div class="flex w-full items-center justify-end">
-                    <button
+                    <button onclick="applyNow()"
                         class="flex w-fit h-fit rounded-md px-4 py-2 shimmer-effect1 text-white bg-brand-red shimmer-effect1">
                         Apply Now
                     </button>
                 </div>
             </div>
             <div class="flex h-8 w-full">
-                <nav class="flex w-full h-full items-center overflow-x-scroll lg:overflow-x-hidden">
+                <nav class="flex w-full h-full items-center overflow-x-scroll nav-scroll lg:overflow-x-hidden">
                     <ul class="flex w-fit justify-start gap-3 lg:gap-5 text-sm lg:mx-auto">
                         <li class="flex w-fit">
                             <a href="#Overview" data-target="Overview" class="nav-link flex w-fit whitespace-nowrap">
@@ -1724,7 +1724,7 @@
                         </span>
                     </div>
                     <div class="flex h-full md:justify-end">
-                        <button
+                        <button onclick="applyNow()"
                             class="flex w-fit h-fit text-base px-5 py-2 bg-brand-red text-white rounded-md shimmer-effect1">
                             APPLY NOW
                         </button>
