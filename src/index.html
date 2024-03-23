@@ -19,14 +19,14 @@
     <header class="flex flex-col w-full shadow fixed top-0 z-30 md:backdrop-blur-2xl md:bg-opacity-80 bg-white ">
         <div class="grid grid-cols-1 max-w-7xl mx-auto divide-y w-full px-3">
             <div class="grid grid-cols-2 w-full">
-                <div class="flex md:divide-x w-full">
-                    <div class="flex h-12">
+                <div class="flex md:divide-x  w-full">
+                    <div class="flex h-12 lg:h-14">
                         <img loading="lazy" src="assets/logo/ISU-IDM-LOGO.webp" alt="ITM Logo"
-                            class="w-fit h-full mix-blend-multiply">
+                            class="w-fit h-full object-contain mix-blend-multiply">
                     </div>
-                    <div class="hidden md:flex h-12">
+                    <div class="hidden md:flex h-12 lg:h-14">
                         <img loading="lazy" src="assets/logo/33 Years Logo.webp" alt="33 Years ITM Group Logo"
-                            class="w-fit h-full mix-blend-multiply">
+                            class="w-fit h-full object-contain mix-blend-multiply">
                     </div>
                 </div>
                 <div class="flex w-full items-center justify-end">
@@ -109,29 +109,80 @@
         </div>
 
         <section id="Hero" class="flex w-full pt-20 md:pt-24">
-            <div class="grid grid-cols-1 md:grid-cols-2 md:py-4 md:px-5 w-full gap-5 max-w-7xl mx-auto ">
-                <div class="flex w-full md:order-2">
-                    <video id="myVideo" class="flex w-full h-fit aspect-video rounded-md" autoplay muted loop
+            <div class="grid grid-cols-1 md:grid-cols-2 md:py-4 md:px-5 w-full gap-5 md:gap-0 max-w-7xl mx-auto ">
+                <div class="flex w-full h-full md:order-2">
+                    <video id="myVideo" class="flex w-full h-fit md:my-auto aspect-video rounded-md" autoplay muted loop
                         playsinline>
                         <source src="assets/video/B.des_Stomp.mp4" type="video/mp4">
                     </video>
                 </div>
-                <div class="flex flex-col px-5 md:px-0 gap-3 lg:gap-5 w-full md:order-1">
+                <div class="flex flex-col px-5 md:px-0 gap-3 lg:gap-4 w-full md:order-1">
                     <h1
                         class="flex flex-col gap-2 w-full text-2xl md:text-2xl+ lg:text-4xl xl:text-5xl items-center justify-center md:items-start md:justify-start">
                         <strong class="flex flex-col w-fit items-center justify-center md:items-start gap-2">
                             <span class="font-normal">Here's to the Future</span>
-                            <span class="rounded-md">UI/UX Leaders!</span>
+                            <span class="rounded-md">UI/UX Designers!</span>
                         </strong>
                         <strong class="flex w-fit gap-2">
                             <span class="bg-black text-white px-2 py-0.5 lg:py-1 rounded-md shimmer-effect1">B.Des in UX
                                 Design </span>
                         </strong>
                     </h1>
-                    <p
+                    <div class="flex w-full">
+                        <ul class="flex flex-col w-full gap-1">
+                            <li class="flex items-center gap-2">
+                                <span class="flex w-fit h-fit">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 54 60"
+                                        fill="none">
+                                        <path
+                                            d="M27.4024 59.1687C30.778 39.262 36.5949 32.876 54.0039 29.8778C54.0039 29.8778 38.9916 26.8949 34.0039 19.3643C29.0161 11.8337 29.6029 7.23716 27.3046 0C25.2508 6.65037 25.5658 14.028 19.9207 20.2934C14.324 26.5051 7.15789 28.0685 0.703125 29.7311C18.3566 33.202 23.9832 39.9368 27.4024 59.1687Z"
+                                            fill="#FFBB00" />
+                                    </svg>
+                                </span>
+                                <span class="flex w-fit text-sm md:text-base">Created by the Top 1% of
+                                    Industry Experts</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="flex w-fit h-fit">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 54 60"
+                                        fill="none">
+                                        <path
+                                            d="M27.4024 59.1687C30.778 39.262 36.5949 32.876 54.0039 29.8778C54.0039 29.8778 38.9916 26.8949 34.0039 19.3643C29.0161 11.8337 29.6029 7.23716 27.3046 0C25.2508 6.65037 25.5658 14.028 19.9207 20.2934C14.324 26.5051 7.15789 28.0685 0.703125 29.7311C18.3566 33.202 23.9832 39.9368 27.4024 59.1687Z"
+                                            fill="#FFBB00" />
+                                    </svg>
+                                </span>
+                                <span class="flex w-fit text-sm md:text-base">6-Month Internship
+                                    Opportunity</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="flex w-fit h-fit">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 54 60"
+                                        fill="none">
+                                        <path
+                                            d="M27.4024 59.1687C30.778 39.262 36.5949 32.876 54.0039 29.8778C54.0039 29.8778 38.9916 26.8949 34.0039 19.3643C29.0161 11.8337 29.6029 7.23716 27.3046 0C25.2508 6.65037 25.5658 14.028 19.9207 20.2934C14.324 26.5051 7.15789 28.0685 0.703125 29.7311C18.3566 33.202 23.9832 39.9368 27.4024 59.1687Z"
+                                            fill="#FFBB00" />
+                                    </svg>
+                                </span>
+                                <span class="flex w-fit text-sm md:text-base">UGC Approved Program</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="flex w-fit h-fit">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 54 60"
+                                        fill="none">
+                                        <path
+                                            d="M27.4024 59.1687C30.778 39.262 36.5949 32.876 54.0039 29.8778C54.0039 29.8778 38.9916 26.8949 34.0039 19.3643C29.0161 11.8337 29.6029 7.23716 27.3046 0C25.2508 6.65037 25.5658 14.028 19.9207 20.2934C14.324 26.5051 7.15789 28.0685 0.703125 29.7311C18.3566 33.202 23.9832 39.9368 27.4024 59.1687Z"
+                                            fill="#FFBB00" />
+                                    </svg>
+                                </span>
+                                <span class="flex w-fit text-sm md:text-base">Learn from Industry
+                                    Practitioners</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <p
                         class="flex w-full items-center justify-center md:justify-start text-center md:text-left text-sm md:text-base lg:text-lg max-w-xs md:max-w-lg mx-auto md:mx-0 leading-6">
                         Secure a prosperous design career with 100% job assistance with average packages of ₹8 LPA.
-                    </p>
+                    </p> -->
                     <div class="flex w-full items-center justify-center md:justify-start">
                         <button onclick="openModal()"
                             class="flex w-fit text-base px-5 py-2 bg-brand-red text-white rounded-md shimmer-effect1">
@@ -140,12 +191,12 @@
                     </div>
                     <div
                         class="flex flex-col text-sm md:text-base w-full gap-1.5 items-center justify-center md:items-start md:justify-start">
-                        <strong class="flex w-fit gap-2 font-semibold">
+                        <!-- <strong class="flex w-fit gap-2 font-semibold">
                             <span>Classes Commence : </span>
                             <span class="text-brand-red">31 <sup>st</sup> July 2024</span>
-                        </strong>
+                        </strong> -->
                         <strong class="flex w-fit gap-2 font-semibold">
-                            <span>CIntake Deadline : </span>
+                            <span>Intake Deadline : </span>
                             <span class="text-brand-red">30 <sup>th</sup> May 2024</span>
                         </strong>
                     </div>

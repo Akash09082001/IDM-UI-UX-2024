@@ -684,8 +684,8 @@ video {
   height: 2rem;
 }
 
-.h-\[440px\]{
-  height: 440px;
+.h-\[500px\]{
+  height: 500px;
 }
 
 .h-fit{
@@ -699,10 +699,6 @@ video {
 
 .h-screen{
   height: 100vh;
-}
-
-.h-\[500px\]{
-  height: 500px;
 }
 
 .w-1\/3{
@@ -1293,11 +1289,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.grayscale-0{
-  --tw-grayscale: grayscale(0);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .grayscale{
   --tw-grayscale: grayscale(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -1640,6 +1631,11 @@ details[open] summary span svg {
     margin-right: auto;
   }
 
+  .md\:my-auto{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
   .md\:mt-0{
     margin-top: 0px;
   }
@@ -1897,6 +1893,10 @@ details[open] summary span svg {
     display: none;
   }
 
+  .lg\:h-14{
+    height: 3.5rem;
+  }
+
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1939,6 +1939,10 @@ details[open] summary span svg {
 
   .lg\:gap-8{
     gap: 2rem;
+  }
+
+  .lg\:gap-4{
+    gap: 1rem;
   }
 
   .lg\:overflow-x-hidden{
